@@ -12,6 +12,8 @@ public class Company {
         List<Employee> employeeList = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
 
+        //simple while loop to decide operations
+
         while (true){
             System.out.println("1. Add data :");
             System.out.println("2. Print all employees who are developers :");
